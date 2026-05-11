@@ -19,6 +19,7 @@
   "homepage": "https://github.com/NasTomkinson/flatpacker#readme",
   "workspaces": [
     "apps/sheet-cutter",
-    "apps/ui"
+    "apps/web",
+    "packages/ui"
   ]
 }
