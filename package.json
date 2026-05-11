@@ -1,0 +1,24 @@
+{
+  "name": "flatpacker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NasTomkinson/flatpacker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NasTomkinson/flatpacker/issues"
+  },
+  "homepage": "https://github.com/NasTomkinson/flatpacker#readme",
+  "workspaces": [
+    "apps/sheet-cutter",
+    "apps/ui"
+  ]
+}
