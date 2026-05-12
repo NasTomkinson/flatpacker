@@ -1,12 +1,25 @@
 {
-  "name": "sheet-cutter",
+  "name": "@flatpacker/sheet-cutter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./app.tsx",
+  "types": "./app.tsx",
+  "exports": {
+    ".": "./app.tsx"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@flatpacker/ui": "*",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
 }
