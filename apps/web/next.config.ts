@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["@flatpacker/sheet-cutter"],
+  transpilePackages: ["@flatpacker/cut-planner"],
 };
 
 export default nextConfig;

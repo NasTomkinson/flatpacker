@@ -1,10 +1,17 @@
 import Layout from "./app/layout";
+import SheetCutter from "./app/sheetCutter";
+import { configureStore } from "@reduxjs/toolkit";
 
-export default function SheetCutter() {
+export const CutlistStore = configureStore({
+    reducer: {
+        
+    }
+})
+
+export default function App() {
     return (
-        <Layout>
-            <h1 className="text-3xl text-amber-300">Sheet Cutter</h1>
-            <p>This is the Sheet Cutter app.</p>
+        <Layout> 
+            <SheetCutter />
         </Layout>
     )   
 }

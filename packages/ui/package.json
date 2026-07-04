@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "exports": {
-    "./globals.css": "./globals.css"
+    "./globals.css": "./globals.css",
+    "./components": "./components/index.ts",
+    "./composites": "./composites/index.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

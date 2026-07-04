@@ -21,6 +21,11 @@
   "workspaces": [
     "apps/sheet-cutter",
     "apps/web",
+    "apps/account",
     "packages/ui"
-  ]
+  ],
+  "dependencies": {
+    "@iconify-icon/react": "^3.0.3",
+    "react-hook-form": "^7.75.0"
+  }
 }
